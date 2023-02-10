@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <div class="container">
+      <form id="form-login">
+        <h2>Login</h2>
+        <input type="text" placeholder="E-mail ou Usuario" required>
+        <input type="password" placeholder="Senha" required>
+        <input type="submit" value="Entrar">
+        <p>Não tem uma conta? <a id="register-link" href="#">Registre-se</a></p>
+        <a href="#">Esqueceu a senha?</a>
+      </form>
+      <form id="form-register" style="display: none;">
+        <h2>Registro</h2>
+        <input type="text" placeholder="Nome completo">
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Senha">
+        <input type="submit" value="Registrar">
+        <p>Já tem uma conta? <a id="login-link" href="#">Faça login</a></p>
+      </form>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
