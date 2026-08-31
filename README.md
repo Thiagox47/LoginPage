@@ -17,16 +17,6 @@
 
 ---
 
-## 🎯 Por que este projeto se destaca no Portfólio?
-
-A maioria das telas de login são páginas genéricas e isoladas. O **NexusAuth** foi projetado como um **Console de Autenticação Enterprise de Alta Conversão**, demonstrando:
-1. **Engenharia & Postura de Segurança Defensiva:** Sanitização ativa contra XSS, manipulação segura do DOM sem `innerHTML`, proteção contra força bruta (Rate Limiting) e separação de limites de confiança (*Trust Boundaries*).
-2. **Revenue-Centric Design (RCD):** Layout *Value First, Ask Later*, prova social dinâmica, redução drástica de atrito e acesso rápido de demonstração (*Demo Login Presets*).
-3. **Padrão Impeccable & Design Tokens:** Paleta escura com contraste preciso (`#020617`, `#0F172A`, `#22D3EE`), tipografia refinada e 100% de acessibilidade.
-4. **Filosofia Ponytail Ultra:** Zero dependências externas pesadas (Pure Vanilla ES6+ e CSS3), algoritmos eficientes e suíte de testes unitários integrada sem frameworks inflados.
-
----
-
 ## 🛡️ Relatório de Segurança & Threat Modeling (5 Pilares de Defesa)
 
 Como parte das boas práticas de engenharia de software, este projeto foi auditado e estruturado considerando os 5 principais vetores de vulnerabilidade em sistemas de autenticação:
