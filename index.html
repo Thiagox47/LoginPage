@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusAuth • Enterprise-Ready Authentication Hub</title>
+  <meta name="description" content="Plataforma de autenticação moderna e segura com foco em alta conversão (RCD), zero-friction onboarding e arquitetura modular.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app-layout">
+    <!-- Left Column: Value Proposition & Social Proof (Revenue-Centric Design) -->
+    <section class="value-panel" aria-label="Proposta de Valor e Demonstração">
+      <div class="value-content">
+        
+        <header class="brand-header">
+          <div class="brand-logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <span class="brand-name">Nexus<span class="brand-accent">Auth</span></span>
+          <span class="badge-tag">v2.4 Production</span>
+        </header>
+
+        <div class="hero-text-block">
+          <div class="chip-metric">
+            <span class="pulse-dot"></span> 99.99% Uptime • Zero-Knowledge Encryption
+          </div>
+          <h1 class="hero-title">Segurança de ponta sem comprometer a sua conversão.</h1>
+          <p class="hero-subtitle">
+            Autenticação rápida, onboarding sem fricção e conformidade instantânea com SOC-2 e LGPD para aplicações de alto crescimento.
+          </p>
+        </div>
+
+        <!-- Live Architecture Snapshot (Archify Evidence) -->
+        <div class="evidence-card">
+          <div class="evidence-header">
+            <span class="evidence-title">Arquitetura de Fluxo Seguro</span>
+            <span class="evidence-status"><span class="indicator-green"></span> TLS 1.3 / MFA Ready</span>
+          </div>
+          <div class="evidence-grid">
+            <div class="evidence-item">
+              <span class="item-label">PROTOCOLO</span>
+              <span class="item-val">OAuth 2.1 + PKCE</span>
+            </div>
+            <div class="evidence-item">
+              <span class="item-label">LATÊNCIA MÉDIA</span>
+              <span class="item-val font-mono">< 14ms (Edge)</span>
+            </div>
+            <div class="evidence-item">
+              <span class="item-label">TAXA DE RETENÇÃO</span>
+              <span class="item-val font-mono text-cyan">+34.8% (RCD)</span>
+            </div>
+            <div class="evidence-item">
+              <span class="item-label">BRUTE FORCE DEFENSE</span>
+              <span class="item-val text-green">Ativo (Rate Limit)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Proof & Customer Trust -->
+        <div class="social-proof-block">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Reduzimos o abandono no onboarding em 42% no primeiro mês após a migração para fluxos de autenticação sem fricção."
+            </p>
+            <div class="testimonial-author">
+              <div class="avatar-ph">TV</div>
+              <div>
+                <span class="author-name">Thiago Vinicius</span>
+                <span class="author-role">Engenharia de Software & RPA Lead</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="value-footer">
+          <span>© 2026 NexusAuth • Projetado para Portfólio Técnico</span>
+        </footer>
+
+      </div>
+    </section>
+
+    <!-- Right Column: Authentication Console (Impeccable & RCD) -->
+    <section class="auth-panel" aria-label="Área de Login e Acesso">
+      
+      <!-- Preset Fast Selector for Reviewers/Recruiters -->
+      <div class="demo-bar" id="demo-bar">
+        <span class="demo-bar-label">⚡ Acesso Rápido para Avaliação:</span>
+        <button type="button" class="btn-demo-pill" data-role="dev" title="Preencher como Dev">Dev</button>
+        <button type="button" class="btn-demo-pill" data-role="admin" title="Preencher como Admin">Admin</button>
+        <button type="button" class="btn-demo-pill" data-role="guest" title="Preencher como Convidado">Guest</button>
+      </div>
+
+      <div class="auth-card" id="auth-card">
+        
+        <!-- Auth Navigation Tabs -->
+        <nav class="auth-tabs" role="tablist">
+          <button class="tab-btn active" role="tab" id="tab-login" aria-selected="true" data-target="form-login">
+            Entrar
+          </button>
+          <button class="tab-btn" role="tab" id="tab-register" aria-selected="false" data-target="form-register">
+            Criar Conta
+          </button>
+          <button class="tab-btn" role="tab" id="tab-magic" aria-selected="false" data-target="form-magic">
+            Magic Link
+          </button>
+        </nav>
+
+        <!-- Social / Single Sign-On (Zero Friction) -->
+        <div class="oauth-section">
+          <div class="oauth-grid">
+            <button type="button" class="btn-oauth" id="btn-oauth-google">
+              <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.7l3.1-3.1C17.3 1.8 14.8 1 12 1 7.5 1 3.7 3.6 1.9 7.3l3.7 2.9C6.5 7.3 9 5 12 5z"/><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7l3.7 2.9c2.2-2 3.7-5 3.7-8.8z"/><path fill="#FBBC05" d="M5.6 14.8c-.2-.7-.4-1.5-.4-2.3s.2-1.6.4-2.3L1.9 7.3C.7 9.7 0 12 0 14.8s.7 5.1 1.9 7.5l3.7-2.9z"/><path fill="#34A853" d="M12 23.5c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3 0-5.5-2.3-6.4-5.2L1.9 16.5C3.7 20.2 7.5 23.5 12 23.5z"/></svg>
+              Google
+            </button>
+            <button type="button" class="btn-oauth" id="btn-oauth-github">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </button>
+          </div>
+          <div class="divider">
+            <span>ou continue com e-mail</span>
+          </div>
+        </div>
+
+        <!-- FORM 1: LOGIN -->
+        <form id="form-login" class="auth-form active" novalidate>
+          <div class="form-group">
+            <label for="login-email">Endereço de E-mail</label>
+            <div class="input-wrapper">
+              <input type="email" id="login-email" name="email" placeholder="nome@empresa.com" required autocomplete="email">
+              <span class="input-icon">✉️</span>
+            </div>
+            <span class="error-feedback" id="login-email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <div class="label-row">
+              <label for="login-password">Senha de Acesso</label>
+              <a href="#forgot" class="link-subtle" id="link-forgot-pass">Esqueceu a senha?</a>
+            </div>
+            <div class="input-wrapper">
+              <input type="password" id="login-password" name="password" placeholder="••••••••" required autocomplete="current-password">
+              <button type="button" class="btn-toggle-pass" aria-label="Exibir ou ocultar senha">👁️</button>
+            </div>
+            <span class="error-feedback" id="login-password-error"></span>
+          </div>
+
+          <div class="form-options">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="remember-me" checked>
+              <span class="checkmark"></span>
+              Lembrar deste dispositivo por 30 dias
+            </label>
+          </div>
+
+          <button type="submit" class="btn-primary" id="btn-submit-login">
+            <span class="btn-text">Acessar Painel Nexus</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <!-- FORM 2: REGISTER -->
+        <form id="form-register" class="auth-form" novalidate>
+          <div class="form-group">
+            <label for="reg-name">Nome Completo</label>
+            <div class="input-wrapper">
+              <input type="text" id="reg-name" placeholder="Ex: Thiago Vinicius" required autocomplete="name">
+              <span class="input-icon">👤</span>
+            </div>
+            <span class="error-feedback" id="reg-name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email">E-mail Corporativo ou Pessoal</label>
+            <div class="input-wrapper">
+              <input type="email" id="reg-email" placeholder="seuemail@dominio.com" required autocomplete="email">
+              <span class="input-icon">✉️</span>
+            </div>
+            <span class="error-feedback" id="reg-email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-password">Criar Senha Forte</label>
+            <div class="input-wrapper">
+              <input type="password" id="reg-password" placeholder="Mínimo 8 caracteres" required autocomplete="new-password">
+              <button type="button" class="btn-toggle-pass" aria-label="Exibir ou ocultar senha">👁️</button>
+            </div>
+            <!-- Dynamic Password Strength Meter -->
+            <div class="strength-meter" id="strength-meter">
+              <div class="strength-bar"><div class="strength-fill" id="strength-fill"></div></div>
+              <div class="strength-label">Força da senha: <span id="strength-text" class="font-mono">Fraca</span></div>
+            </div>
+            <span class="error-feedback" id="reg-password-error"></span>
+          </div>
+
+          <button type="submit" class="btn-primary" id="btn-submit-register">
+            <span class="btn-text">Criar Conta Gratuita</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+          
+          <p class="terms-notice">
+            Ao se registrar, você concorda com os <a href="#" class="link-subtle">Termos de Serviço</a> e <a href="#" class="link-subtle">Política de Privacidade</a>.
+          </p>
+        </form>
+
+        <!-- FORM 3: MAGIC LINK -->
+        <form id="form-magic" class="auth-form" novalidate>
+          <div class="magic-intro">
+            <h3>Login sem Senha (Passwordless)</h3>
+            <p>Enviaremos um link de acesso instantâneo e seguro diretamente para o seu e-mail.</p>
+          </div>
+
+          <div class="form-group">
+            <label for="magic-email">Seu E-mail Cadastrado</label>
+            <div class="input-wrapper">
+              <input type="email" id="magic-email" placeholder="nome@empresa.com" required>
+              <span class="input-icon">⚡</span>
+            </div>
+            <span class="error-feedback" id="magic-email-error"></span>
+          </div>
+
+          <button type="submit" class="btn-primary" id="btn-submit-magic">
+            <span class="btn-text">Enviar Link Mágico</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+
+      </div>
+
+      <!-- SUCCESS DASHBOARD MODAL / SCREEN (Aha Moment) -->
+      <div class="session-view" id="session-view" style="display: none;">
+        <div class="session-card">
+          <div class="session-badge">✓ Autenticado com Sucesso</div>
+          <h2 id="session-greeting">Bem-vindo ao NexusAuth!</h2>
+          <p class="session-desc">Sua sessão JWT mock foi gerada com chaves criptográficas seguras.</p>
+          
+          <div class="token-box">
+            <span class="token-title">AUTH TOKEN (PAYLOAD SIMULADO):</span>
+            <code id="session-token-display">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...</code>
+          </div>
+
+          <div class="session-actions">
+            <button type="button" class="btn-secondary" id="btn-copy-token">Copiar Token</button>
+            <button type="button" class="btn-primary" id="btn-logout">Encerrar Sessão</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Notification Toast Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
